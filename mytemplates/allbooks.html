@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+
+</head>
+<body>
+<center>
+<h2>{{title}}</h2>
+<h2>{{books}}</h2>
+<table border="1">
+    <tr>
+        <td>Book Name</td>
+        <td>Subject</td>
+        <td>Price</td>
+
+    </tr>
+    {% for book in books %}
+<tr>
+        <td>{{book.bookname}}</td>
+        <td>{{book.subject}}</td>
+        <td>{{book.price}}</td>
+
+    </tr>
+    <br>
+    {% endfor %}
+</table>
+</center>
+</body>
+</html>
