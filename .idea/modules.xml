@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dbjando.iml" filepath="$PROJECT_DIR$/.idea/dbjando.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dbjango.iml" filepath="$PROJECT_DIR$/.idea/dbjango.iml" />
     </modules>
   </component>
 </project>

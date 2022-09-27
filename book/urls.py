@@ -10,6 +10,6 @@ urlpatterns = [
     path("searchbooks/", views.searchbooks),
     path("searchor/", views.searchor),
     path("aggregates/", views.aggregates),
-    path("showForm/", views.showForm),
+    path("subject/", views.subject),
     path("user/", views.user),
 ]
